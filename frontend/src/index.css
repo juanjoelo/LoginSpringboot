@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white 100%), 
+              url('https://blackmorepartnersinc.com/wp-content/uploads/2017/07/chicago-city-wallpaper-background-hd-18668-19220-hd-wallpapers.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto; /* Center the container */
+}
+
+.welcome-message {
+  margin-top: 20px;
+  color: #333;
+  font-size: 18px;
+}
+
+.btn-primary {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.btn-secondary {
+  margin-top: 10px;
+  margin-left: 195px;
+}
+
+#link {
+  margin-top: 30px;
+  background-color: black;
+}
